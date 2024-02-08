@@ -5,17 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFirstWebsite</title>
 
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Local CSS-->
     <link rel="stylesheet" href="/css/styles.css" />
     </head>
 <body>
+
+<header>
+    <!--Begin Top Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--End Top Navbar-->
+</header>
+
+<main>
+
     <h1>This is my first page</h1>
 
     <h2>this is a subheading</h2>
 testing
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore eaque itaque neque dignissimos a obcaecati possimus saepe ex quisquam maxime eius dolores suscipit ullam, nulla tenetur, non nostrum labore amet adipisci delectus quas dolorem. Possimus facilis iste fugiat quae totam, tempora aspernatur id repellendus cumque reprehenderit nostrum, sint quia culpa dicta, rerum eligendi reiciendis cupiditate porro exercitationem laudantium voluptatum optio! Reprehenderit vitae velit a voluptatibus soluta totam saepe officia nulla iure, ipsam inventore nisi tempore illum laboriosam, in atque quidem ullam asperiores ab esse. Minima facere veniam natus fugiat sint eligendi placeat possimus et mollitia, ipsam amet harum eum est nisi qui ratione neque alias ullam unde quam blanditiis eius ab quo! Sint ut laudantium reiciendis voluptas numquam nihil commodi laboriosam unde tempore vero. Maxime impedit rem quidem blanditiis sint vel deleniti quibusdam debitis cupiditate a. Beatae vitae mollitia aliquid voluptatum porro. Quibusdam cupiditate veniam nesciunt impedit. Nemo in non vero repellat atque, magnam ratione id animi quisquam ullam culpa esse, quis facilis quas recusandae impedit laboriosam repellendus sequi labore aperiam obcaecati consectetur? Nulla voluptatibus dolores necessitatibus ipsum hic quod inventore! Sunt sed eligendi dicta quaerat perspiciatis ea quidem asperiores fugit aut. Repellat dolore eligendi minus adipisci molestias optio?
 <p>content</p>
+</main>
+<footer>
+    footer goes here
+</footer>
 
+<div>
+    <!--Bootstrap JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--Local JS-->
     <script src="js/scripts.js"></script>
+</div>
 
     </body>
 </html>
