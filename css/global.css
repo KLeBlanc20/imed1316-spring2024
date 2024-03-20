@@ -4,7 +4,7 @@
 /* 10% of #f8f9fa - Accent */
 
 :root {
-    --dominantColor: #cc7e92; /* var(--dominantColor) !important; */
+    --dominantColor: #671313; /* var(--dominantColor) !important; */
     --secondaryColor: #f296ad; /* var(--secondaryColor) !important; */
     --accentColor: #732538; /* var(--accentColor) !important; */
   
