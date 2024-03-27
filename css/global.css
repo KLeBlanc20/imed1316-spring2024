@@ -5,7 +5,7 @@
 
 :root {
     --dominantColor: #671313; /* var(--dominantColor) !important; */
-    --secondaryColor: #f296ad; /* var(--secondaryColor) !important; */
+    --secondaryColor: #292929; /* var(--secondaryColor) !important; */
     --accentColor: #671313; /* var(--dominantColor) !important; */
   
     /*box shadow*/
