@@ -6,7 +6,7 @@
 :root {
     --dominantColor: #671313; /* var(--dominantColor) !important; */
     --secondaryColor: #f296ad; /* var(--secondaryColor) !important; */
-    --accentColor: #732538; /* var(--accentColor) !important; */
+    --accentColor: #671313; /* var(--dominantColor) !important; */
   
     /*box shadow*/
     /*cssmatic*/
