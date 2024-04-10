@@ -8,4 +8,11 @@
     background-size: cover;
 }
 
-.wrapper-main
+.wrapper-main{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: transparent;
+    padding: 25px;
+    margin-bottom: 0;
+}
