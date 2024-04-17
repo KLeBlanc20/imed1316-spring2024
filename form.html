@@ -170,25 +170,28 @@
                 <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="tshirt-size">T-shirt Size</label>
                     <select name="tshirtSize" id="tshirt-size" required/>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option value="">SELECT SIZE</option>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="CUSTOM">CUSTOM</option>
                     </select>
+                    <input type="text" name="custom" placeholder="Please input a custom size" id="custom" disabled required />
                 </div>
         
                 <!-- TColor - color Field-->
                 <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                    <label for="">T-shirt Color</label>
+                    <label for="color">T-shirt Color</label>
+                    <input type="color" name="color" id="color" />
                 </div>
         
-                <!-- Backgroun Check - file (upload) Field -->
+                <!-- Background Check - file (upload) Field -->
                 <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                    <label for="">Background Check</label>
+                    <label for="background-check">Background Check</label>
+                    <input type="file" name="file" id="backgorund-check" />
                 </div>
         
                 <!-- Participation In - radio Field -->
