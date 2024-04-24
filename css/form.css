@@ -45,3 +45,8 @@
     background-color: #ffffff;
     color: var(--secondaryColor) !important;
 }
+
+.submit:hover{
+    background-color: var(--secondaryColor) !important;
+    color: #ffffff;
+}
