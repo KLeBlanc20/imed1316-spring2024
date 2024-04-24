@@ -8,7 +8,7 @@
 
 .imed-row{
     background-color: var(--dominantColor) !important;
-    padding: 20px;
+    padding: 10px;
 }
 
 .fa-row-icon{
@@ -27,4 +27,11 @@
     text-transform: uppercase;
     text-decoration: none;
 
+}
+
+.first-paragraph-div{
+    position: relative;
+    background-color: #ffffff;
+    color: var(--dominantColor) !important;
+    font-weight: bold;
 }
