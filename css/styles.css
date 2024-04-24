@@ -8,7 +8,7 @@
 
 .imed-row{
     background-color: var(--dominantColor) !important;
-    
+    padding: 20px;
 }
 
 .fa-row-icon{
