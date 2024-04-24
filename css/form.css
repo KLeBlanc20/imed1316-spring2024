@@ -40,3 +40,8 @@
 
 }
 
+.submit{
+    border-color: var(--secondaryColor) !important;
+    background-color: #ffffff;
+    color: var(--secondaryColor) !important;
+}
